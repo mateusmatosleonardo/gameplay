@@ -1,22 +1,16 @@
 import React from "react";
-import { View, Text, StyleSheet, StatusBar } from "react-native";
+import { View, StatusBar } from "react-native";
+import Signin from "./src/screens/Signin";
 
 const App = () =>{
     return(
-        <View style={styles.container}>
+        <View>
             <StatusBar />
-            <Text>New Project</Text>
+            <Signin/>
         </View>
     )
 }
 
-const styles = StyleSheet.create({
-    container: {
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        flex: 1
-    }
-})
+
 
 export default App;
