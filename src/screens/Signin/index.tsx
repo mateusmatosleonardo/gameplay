@@ -1,11 +1,17 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { 
+    View, 
+    Image 
+} from "react-native";
 import { styles } from "./style";
+import illustrationImg from '../../assets/illustration.png';
 
 const Signin = () =>{
     return(
         <View style={styles.container}>
-            <Text>Signin aqui</Text>
+           <Image
+            source={illustrationImg}
+           />
         </View>
     )
 }
