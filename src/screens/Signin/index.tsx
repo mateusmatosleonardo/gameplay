@@ -11,7 +11,13 @@ const Signin = () =>{
         <View style={styles.container}>
            <Image
             source={illustrationImg}
+            style={styles.image}
            />
+
+           <View style={styles.content}>
+
+           </View>
+
         </View>
     )
 }
