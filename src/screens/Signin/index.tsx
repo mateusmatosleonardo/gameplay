@@ -7,6 +7,7 @@ import {
 } from "react-native";
 import { styles } from "./style";
 import illustrationImg from '../../assets/illustration.png';
+import ButtonIcon from "../../components/ButtonIcon";
 
 const Signin = () =>{
     return(
@@ -30,8 +31,8 @@ const Signin = () =>{
                 Crie grupos para jogar seus games {`\n`}
                 favoritos com seus amigos
             </Text>
+            <ButtonIcon/>
            </View>
-
         </View>
     )
 }
