@@ -31,7 +31,7 @@ const Signin = () =>{
                 Crie grupos para jogar seus games {`\n`}
                 favoritos com seus amigos
             </Text>
-            <ButtonIcon/>
+            <ButtonIcon title="Entrar com Discord"/>
            </View>
         </View>
     )

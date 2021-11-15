@@ -8,7 +8,11 @@ import {
     } from "react-native";
 import DiscordImg from '../../assets/discord.png';
 
-const ButtonIcon = () =>{
+interface ButtonIconProps {
+    title: string;
+}
+
+const ButtonIcon = ({title}: ButtonIconProps) =>{
     return(
        <TouchableOpacity style={styles.container}>
            <View style={styles.iconWrapper}>
@@ -18,7 +22,7 @@ const ButtonIcon = () =>{
                 />
            </View>
            <Text style={styles.title}>
-                Entrar com Discord
+                {title}
            </Text>
        </TouchableOpacity>
     )
