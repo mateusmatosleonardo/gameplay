@@ -14,7 +14,7 @@ const Signin = () =>{
         <View style={styles.container}>
             <StatusBar barStyle="light-content" 
             backgroundColor="transparent"
-            translucent
+            translucent={true}
             />
            <Image
             source={illustrationImg}
@@ -31,7 +31,10 @@ const Signin = () =>{
                 Crie grupos para jogar seus games {`\n`}
                 favoritos com seus amigos
             </Text>
-            <ButtonIcon title="Entrar com Discord"/>
+            <ButtonIcon 
+            title="Entrar com Discord"
+            activeOpacity={0.7}
+            />
            </View>
         </View>
     )

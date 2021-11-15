@@ -4,17 +4,21 @@ import {
     View,
     Text,
     Image,
-    TouchableOpacity
+    TouchableOpacity,
+    TouchableOpacityProps
     } from "react-native";
 import DiscordImg from '../../assets/discord.png';
 
-interface ButtonIconProps {
-    title: string;
+type ButtonIconProps = TouchableOpacityProps & {
+    title?: string;
 }
 
-const ButtonIcon = ({title}: ButtonIconProps) =>{
+const ButtonIcon = ({title, ...rest}: ButtonIconProps) =>{
     return(
-       <TouchableOpacity style={styles.container}>
+       <TouchableOpacity 
+       style={styles.container}
+       {...rest}
+       >
            <View style={styles.iconWrapper}>
                 <Image
                     source={DiscordImg}
