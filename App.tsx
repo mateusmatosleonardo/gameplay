@@ -6,6 +6,14 @@ import {Rajdhani_500Medium, Rajdhani_700Bold} from '@expo-google-fonts/rajdhani'
 import Signin from "./src/screens/Signin";
 
 const App = () =>{
+
+    useFonts({
+        Inter_400Regular,
+        Inter_500Medium,
+        Rajdhani_500Medium,
+        Rajdhani_700Bold
+    });
+
     return(
         <Signin/>
     )
