@@ -1,12 +1,15 @@
 import React from "react";
 import { View, Text } from "react-native";
+
+import Profile from "../../components/Profile";
+
 import { styles } from "./styles";
 
 const Home = () =>{
     return(
         <View style={styles.container}>
             <View style={styles.header}>
-                <Text>Oi</Text>
+                <Profile/>
             </View>
         </View>
     )   
