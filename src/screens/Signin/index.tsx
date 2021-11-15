@@ -4,7 +4,7 @@ import {
     Text,
     Image
 } from "react-native";
-import { styles } from "./style";
+import { styles } from "./styles";
 import illustrationImg from '../../assets/illustration.png';
 import ButtonIcon from "../../components/ButtonIcon";
 
