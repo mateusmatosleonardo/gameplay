@@ -5,7 +5,7 @@ import {Rajdhani_500Medium, Rajdhani_700Bold} from '@expo-google-fonts/rajdhani'
 import AppLoading from 'expo-app-loading';
 import {StatusBar} from 'react-native';
 
-import Signin from "./src/screens/Signin";
+import Home from "./src/screens/Home";
 
 const App = () =>{
 
@@ -27,7 +27,7 @@ const App = () =>{
             backgroundColor="transparent"
             translucent={true}
             />
-            <Signin/>
+            <Home/>
         </>
     );
 };
