@@ -1,6 +1,7 @@
 import React from "react";
 import { 
     View, 
+    Text,
     Image 
 } from "react-native";
 import { styles } from "./style";
@@ -15,7 +16,15 @@ const Signin = () =>{
            />
 
            <View style={styles.content}>
-
+            <Text style={styles.title}>
+                Organize {`\n`}
+                suas jogatinas {`\n`}
+                facilmente 
+            </Text>
+            <Text style={styles.subtitle}>
+                Crie grupos para jogar seus games {`\n`}
+                favoritos com seus amigos
+            </Text>
            </View>
 
         </View>
